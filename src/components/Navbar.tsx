@@ -67,7 +67,7 @@ const Navbar = () => {
               </Link>
             ))}
             <a
-              href="/resume.pdf"
+              href="https://drive.google.com/drive/folders/1GDXE3JZXnVwsa99ZIYDvNViyYPkXvaWh?usp=sharing"
               className="btn-primary py-2 px-6 text-lg"
               target="_blank"
               rel="noopener noreferrer"
