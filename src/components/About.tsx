@@ -12,16 +12,13 @@ const About = () => {
         <div className="grid grid-cols-1 md:grid-cols-5 gap-16 mt-16 items-center">
           <div className="md:col-span-3 space-y-6" data-aos="fade-right" data-aos-delay="100">
             <p className="text-xl text-gray-700 dark:text-text-secondary leading-relaxed">
-              As a Software Engineer, I've had the privilege of working in dynamic environments where I've been able to contribute to impactful projects. At Blue Ocean Strategic Partners, I architected a bond management system for Florida, enhancing regulatory compliance. My role at Logiciel Services involved developing a multimodal chatbot that increased user engagement by 40%.
-            </p>
+              I’m a results-oriented Software and AI Engineer passionate about building intelligent, production-ready systems. Currently pursuing my M.Sc. in Artificial Intelligence at Friedrich-Alexander-Universität Erlangen-Nürnberg, I focus on bridging the gap between machine learning research and scalable software solutions.            </p>
             
             <p className="text-lg text-gray-600 dark:text-text-secondary leading-relaxed">
-              I have a strong background in data engineering, having built a pipeline at Logiciel Services that aggregated over 500,000 data points. At KoderLabs, I honed my skills in full-stack development, contributing to a comprehensive management system and improving application performance with socket-based communication.
-            </p>
+              At Folio3, I led both frontend and AI initiatives across multiple international projects. I engineered an AI-powered booking system using AWS Bedrock and LangGraph that streamlined hotel reservations and cut response latency by 75%. For Cargill, I developed a Computer Vision pipeline estimating cattle body condition scores with 92% accuracy and delivered a mobile SQL chatbot for natural-language database interaction. I also modernized frontend systems, revamping authentication flows and refactoring React and Vue applications for smoother experiences and 50% faster load times.            </p>
             
             <p className="text-lg text-gray-600 dark:text-text-secondary leading-relaxed">
-              I am a proactive problem-solver with a passion for learning and a knack for analytical thinking. I thrive in collaborative environments and I am always eager to take on new challenges.
-            </p>
+              My technical toolkit includes Python, TypeScript, ReactJS, FastAPI, AWS, and Docker, along with experience in PyTorch and TensorFlow for cloud-native AI deployment. I thrive on turning advanced AI concepts into reliable, usable products and enjoy collaborating on teams developing next-generation AI-enabled software and intelligent systems at scale.            </p>
             
             <div className="pt-6">
               <a href="#contact" className="btn-secondary text-lg">
@@ -40,9 +37,9 @@ const About = () => {
             </h3>
             
             <div className="space-y-6">
-              <InfoItem icon={<User />} label="Full Name" value="Nashit Budhwani" />
-              <InfoItem icon={<Mail />} label="Email" value="nashitnoorali78@gmail.com" />
-              <InfoItem icon={<MapPin />} label="Location" value="Karachi, Pakistan" />
+              <InfoItem icon={<User />} label="Full Name" value="Muhammad Umair Amir" />
+              <InfoItem icon={<Mail />} label="Email" value="umairamir9001@gmail.com" />
+              <InfoItem icon={<MapPin />} label="Location" value="Erlangen, Germany" />
               <InfoItem icon={<Calendar />} label="Availability" value="Open to Work" />
             </div>
           </div>

@@ -22,8 +22,8 @@ const Hero = () => {
             data-aos="fade-up"
             data-aos-delay="200"
           >
-            <span className="hidden md:inline">NASHIT BUDHWANI</span>
-            <span className="md:hidden">Nashit B.</span>
+            <span className="hidden md:inline">Muhammad Umair Amir</span>
+            <span className="md:hidden">Umair Amir  </span>
           </h1>
           <h2 
             className="text-2xl md:text-4xl font-bold text-gray-700 dark:text-text-secondary mb-6"
@@ -48,8 +48,7 @@ const Hero = () => {
             data-aos="fade-up"
             data-aos-delay="400"
           >
-            A passionate and dedicated software engineer with experience in building robust and scalable applications.
-          </p>
+            A passionate and dedicated software engineer with experience in building scalable, AI-driven applications.          </p>
           <div 
             className="flex flex-col sm:flex-row gap-6 justify-center"
             data-aos="fade-up"

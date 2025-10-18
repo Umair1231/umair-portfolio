@@ -3,32 +3,26 @@ import Section from './Section.tsx';
 import SectionTitle from './SectionTitle.tsx';
 
 const services = [
-  'Full-Stack Web Development with Django, React, and modern frameworks',
-  'Custom Backend Solutions using Python, FastAPI, and Node.js',
+  'Full-Stack Web Development with Django, Vue, React, and modern frameworks',
+  'Custom Backend Solutions using Python, FastAPI, and GoLang',
   'AI-Powered Features (e.g., chatbots, object detection with YOLOv7, predictive models)',
-  'Automation Workflows with n8n, Make.com, and custom scripts',
+  'Natural Language Interfaces enabling SQL chatbots and AI-driven Q&A systems for intuitive data interaction.',
   'API Design & Integration (RESTful) for seamless connectivity',
   'Database Management (MongoDB, PostgreSQL, SQL) and DevOps with Docker',
-  'Custom AI Agents that reason, plan, and take actions (e.g., AutoGPT, DSPy)',
+  'Custom AI Agents that reason, plan, and take actions (e.g., AWS Bedrock)',
   'Agentic RAG Systems – retrieval-augmented generation with context-aware AI agents',
   'End-to-end solutions for lead generation, customer support, data handling, and more',
 ];
 
 const whyChooseMe = [
-  'Expertise across web development, AI/ML, automation, and system architecture',
-  'Cross-disciplinary expertise in AI/ML, automation, and real-world business workflows',
-  'Skilled in building scalable, modular, and secure systems for startups and enterprises',
-  'Fast turnaround, custom-tailored implementations, and clear communication',
-  'Strong background in tools like LangChain, Haystack, DSPy, Pytorch, FastAPI, Docker',
-  '100% satisfaction with post-delivery support and improvements',
+  'Proficient in full-stack web development, AI/ML solutions, and system architecture',
+  'Experienced in building AI-driven applications and real-world, data-intensive workflows',
+  'Skilled at designing scalable, modular, and secure systems for both startups and enterprises',
+  'Deliver fast, custom-tailored solutions with transparent communication throughout',
+  'Hands-on expertise with Python, TypeScript, ReactJS, Vue, FastAPI, PyTorch, TensorFlow, and Docker',
+  'Committed to client satisfaction with continuous post-delivery support and enhancements',
 ];
 
-const perks = [
-    'Future-Proof AI Stack – Stay ahead with modern tooling and LLM-native architectures',
-    'Plug-and-Play AI Workflows – Easily extensible, documented, and modular code',
-    'Scalable Infrastructure – Ready for cloud deployment (AWS, GCP, Dockerized apps)',
-    'Ongoing Support & Optimization – I don\'t just build; I help you grow and iterate fast',
-]
 
 const Services = () => {
   return (
@@ -50,18 +44,6 @@ const Services = () => {
             <div key={index} className="flex items-start space-x-4" data-aos="fade-up" data-aos-delay={index * 100}>
               <CheckCircle className="h-6 w-6 text-secondary flex-shrink-0 mt-1" />
               <p className="text-gray-700 dark:text-text-secondary">{reason}</p>
-            </div>
-          ))}
-        </div>
-      </div>
-
-      <div className="mt-20">
-        <SectionTitle>Exceptional Perks</SectionTitle>
-        <div className="grid md:grid-cols-2 gap-8 mt-12">
-          {perks.map((perk, index) => (
-            <div key={index} className="flex items-start space-x-4" data-aos="fade-up" data-aos-delay={index * 100}>
-              <CheckCircle className="h-6 w-6 text-secondary flex-shrink-0 mt-1" />
-              <p className="text-gray-700 dark:text-text-secondary">{perk}</p>
             </div>
           ))}
         </div>

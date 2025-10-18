@@ -1,9 +1,9 @@
 {
-  "name": "nashit-portfolio",
+  "name": "umair-portfolio",
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://kill3rstabs.github.io/nashit-portfolio",
+  "homepage": "https://umair1231.github.io/umair-portfolio",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist",

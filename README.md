@@ -1,8 +1,8 @@
-# Nashit Budhwani - Personal Portfolio
+# Muhammad Umair Amir - Personal Portfolio
 
 This is the repository for my personal portfolio website, built to showcase my skills, experience, and projects. It's a modern, responsive, and animated single-page application created with React and Tailwind CSS.
 
-### [View Live Demo](https://nashitbudhwani.github.io/portfolio/)
+### [View Live Demo](https://umair1231.github.io/portfolio/)
 
 ---
 

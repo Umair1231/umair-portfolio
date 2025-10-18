@@ -15,55 +15,30 @@ const Experience = () => {
 
   const jobs: Job[] = [
     {
-      id: 'blue-ocean',
-      company: 'Blue Ocean Strategic Partners',
-      position: 'Software Engineer II',
-      period: 'October 2024 – Present',
+      id: 'Folio3',
+      company: 'Folio3',
+      position: 'Software Engineer',
+      period: 'September 2023 - September 2025',
       description: [
-        'Streamlined bond reporting processes by architecting and implementing a bond management system for Florida, resulting in enhanced regulatory compliance and efficient workflows.',
-        'Achieved seamless system integration by designing and executing robust data migration pipelines from legacy systems to a modernized platform, ensuring data accuracy.',
-        'Boosted deployment efficiency and scalability by engineering containerized applications with Docker, including crafting Dockerfiles and orchestrating services with Docker Compose.',
-        'Reduced payroll processing time by 40% by developing an automated payroll system featuring advanced document data extraction, thereby streamlining operations.',
-        'Enhanced solution development by collaborating daily with clients to gather requirements and incorporate feedback, resulting in iterative improvements within an agile startup environment.'
+        'Designed and deployed a Computer Vision system for automated industrial analysis, including data cleaning, augmentation, and deep learning models, achieving 92% test accuracy and managing the full project lifecycle, including client communication.',
+        'Developed a GenAI-based SQL chatbot that translates natural language into dynamic SQL queries, optimizing data retrieval and integrating the system into an offline-first mobile application using advanced prompt engineering techniques.',
+        'Led the end-to-end development of an AI Booking Agent, an LLM-based chatbot with multi-agent workflows using AWS Bedrock and LangGraph, reducing API response times by 75% and achieving 90% solution accuracy.',
+        'Improved performance across enterprise web applications, reducing login times by 50% for ReactJS projects and cutting page load times by 50% for VueJS applications through extensive refactoring and optimization.',
+        'Built complex data-driven UIs with AngularJS for enterprise projects, implementing advanced filtering, sorting, and visualization features to efficiently handle large datasets.',
+        'Architected and developed full-stack solutions including NestJS backend services, FastAPI APIs, and database schemas, collaborating in Agile/Scrum teams to translate requirements into functional AI and software solutions.'
       ],
-      technologies: ['Docker', 'Data Migration', 'System Integration', 'Agile']
+      technologies: [  'Python',
+        'TypeScript',
+        'ReactJS',
+        'VueJS',
+        'AngularJS',
+        'FastAPI',
+        'NestJS',
+        'AWS Bedrock',
+        'PyTorch',
+        'LangGraph'
+      ]
     },
-    {
-      id: 'logiciel',
-      company: 'Logiciel Services',
-      position: 'Software Engineer - Data',
-      period: 'July 2024 - October 2024',
-      description: [
-        'Increased user engagement by 40% and improved sentiment analysis accuracy by 88% by developing a multimodal chatbot powered by large language models.',
-        'Enhanced data processing efficiency by building a pipeline that aggregated over 500,000 data points from 10+ sources using vector and graph databases, ensuring robust integration.',
-        'Streamlined support operations by automating processes, which cut error resolution time by 50% and achieved 98% accuracy across 200+ daily queries.'
-      ],
-      technologies: ['LLM', 'Chatbot', 'Vector Databases', 'Graph Databases', 'Data Pipelines']
-    },
-    {
-      id: 'koderlabs',
-      company: 'KoderLabs',
-      position: 'Associate Software Engineer',
-      period: 'August 2023 - July 2024',
-      description: [
-        'Improved project outcomes by collaborating with cross-functional teams to gather requirements, design innovative solutions, and implement new features, ensuring on-time delivery.',
-        'Enhanced application performance by developing robust socket-based communication modules that enabled real-time data exchange between server and client applications.',
-        'Reduced bug fix time by 20% and bolstered system reliability by contributing to the development of a comprehensive management system.',
-        'Optimized data management by analyzing business needs and collaborating with teams to define effective database structures, resulting in smoother data retrieval processes.',
-        'Increased overall system efficiency by implementing asynchronous message processing using queues, which reduced processing delays by 30%.'
-      ],
-      technologies: ['Socket.io', 'System Design', 'Database Design', 'Message Queues']
-    },
-    {
-      id: 'optimizia',
-      company: 'Optimizia',
-      position: 'AI Engineering Intern',
-      period: 'July 2022 - September 2022',
-      description: [
-        'Enhanced safety protocols and analytics by designing web APIs for seamless software communication and leading backend development for real-time seatbelt monitoring.'
-      ],
-      technologies: ['Web API', 'Backend Development']
-    }
   ];
 
   return (
@@ -159,26 +134,25 @@ const Experience = () => {
               
               <div>
                 <h4 className="text-xl font-semibold text-gray-900 dark:text-text-primary">
-                  B.S. Computer Science
+                  Bachelors in Computer Science (September 2020 - June 2024)
                 </h4>
                 <p className="text-gray-700 dark:text-text-secondary mt-1">
-                  FAST University Karachi, Pakistan
+                  National University of Computer and Emerging Sciences Karachi, Pakistan
                 </p>
                 <p className="text-gray-600 dark:text-text-dark mt-1 flex items-center">
                   <Calendar className="h-4 w-4 mr-2" />
-                  CGPA: 3.58
+                  CGPA: 3.45
                 </p>
                 <p className="mt-4 text-gray-700 dark:text-text-secondary">
-                  Dean's List (5x)
+                  Dean's List (4x)
                 </p>
               </div>
             </div>
           </div>
-          
+
           <div 
-            className="mt-6 bg-gray-50 dark:bg-primary-light p-6 rounded-lg shadow-sm"
+            className="bg-gray-50 dark:bg-primary-light p-6 rounded-lg shadow-sm"
             data-aos="fade-up"
-            data-aos-delay="100"
           >
             <div className="flex items-start">
               <div className="hidden sm:block mr-4">
@@ -189,14 +163,15 @@ const Experience = () => {
               
               <div>
                 <h4 className="text-xl font-semibold text-gray-900 dark:text-text-primary">
-                  Certifications & Recognitions
+                  Masters in Artificial Intelligence (October 2025 - Present)
                 </h4>
                 <p className="text-gray-700 dark:text-text-secondary mt-1">
-                  Continuously learning and growing in the field of software engineering.
+                  Friedrich-Alexander-Universität Erlangen-Nürnberg Erlangen, Germany
                 </p>
               </div>
             </div>
           </div>
+          
         </div>
       </div>
     </section>

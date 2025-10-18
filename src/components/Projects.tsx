@@ -5,7 +5,6 @@ interface Project {
   id: string;
   title: string;
   description: string;
-  image: string;
   technologies: string[];
   links: {
     github?: string;
@@ -19,146 +18,91 @@ const Projects = () => {
   
   const projects: Project[] = [
     {
-      id: 'tradesage',
-      title: 'TradeSage for ABC Co.',
-      description: 'Pioneered a trade-focused Language Model (LLM) using techniques like RAG, fine-tuning, and semantic search.',
-      image: 'https://i.ibb.co/rf7ScNqk/Untitled.jpg',
-      technologies: ['LLM', 'RAG', 'Fine-tuning', 'Semantic Search'],
+      id: 'FYP',
+      title: 'Deep Transformer based Structural Semantic Network for Document Clustering',
+      description: 'Created a cutting edge document clustering model using Deep Transformers and Structural Semantic Networks, achieving superior accuracy on benchmark datasets.',
+      technologies: ['AI, Machine Learning', 'Deep Learning', 'Transformers', 'NLP'],
       links: {
-        github: 'https://github.com/kill3rstabs',
+        github: 'https://github.com/aliahmxd254/FYP23-Deep-Document-Clustering',
       },
       category: 'ai',
     },
     {
-      id: 'assignment-solver',
-      title: 'Assignment Solver',
-      description: 'Developed a project allowing users to input photos/PDFs, generating handwritten PDF outputs for assignments.',
-      image: 'https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSxTKwNye9mltfjfzAN1ve-4Q5B4MdjrpshIA&s',
-      technologies: ['PDF Manipulation', 'Image Processing'],
+      id: 'Ezrental',
+      title: 'Ezrental',
+      description: 'EzRental is a scalable, cloud-based platform that connects landlords and tenants worldwide, offering advanced search, detailed listings, and secure bookings in a single, user-friendly application.',
+      technologies: [  'C#',
+  'ASP.NET MVC',
+  'ReactJS',
+  'Microsoft Azure',
+  'Interserver',
+  'Microsoft Visual Studio',
+  'Microsoft SQL Workbench'],
       links: {
-        github: 'https://github.com/kill3rstabs',
+        github: 'https://github.com/AahilHalani/ezrental',
       },
       category: 'web',
     },
     {
-      id: 'coders-cup',
-      title: 'Coders Cup',
-      description: 'Participated in and contributed to Coders Cup \'24, a competitive programming event, solving complex algorithmic challenges.',
-      image: 'https://res.cloudinary.com/dlriiwcsn/image/upload/v1731254698/Coder_s_Cup_24_Logo_With_Sponsors_qyhl7g.png',
-      technologies: ['Competitive Programming', 'Algorithms', 'Data Structures', 'Problem Solving'],
+      id: 'Quickchef',
+      title: 'Quick Chef',
+      description: 'Created a personal food and ingredient tracker and recipe recommendation app that suggests recipes based on available ingredients, reducing food waste and enhancing meal planning.',
+      technologies: ["React", "Node.js", "Express", "MongoDB", "RESTful APIs"],
       links: {
-        github: 'https://github.com/kill3rstabs',
+        github: 'https://github.com/Umair1231/Quick-Chef',
+      },
+      category: 'web',
+    },
+    {
+      id: 'bookingagent',
+      title: 'AI Hotel Booking Agent',
+      description: 'Spearheaded the development of an AI-powered hotel booking agent that utilizes LLMs and Langgraph to assist users in finding and booking hotels seamlessly.',
+      technologies: ['AI', 'LLMs', 'Langgraph', 'React', 'AWS Bedrock'],
+      links: {
+        github: '',
       },
       category: 'ai',
     },
     {
-      id: 'ecommerce',
-      title: 'Ecommerce Web Application',
-      description: 'Constructed a feature-rich web application providing customers with seamless online purchasing capabilities.',
-      image: 'https://infostride.com/wp-content/uploads/2024/01/How-Much-Does-eCommerce-Website-Development-Cost.png',
-      technologies: ['React', 'Node.js', 'MongoDB'],
+      id: 'cargill',
+      title: 'Cargill Computer Vision Integration',
+      description: 'Created a Computer based integration for Cargill project to automate calculated of BCS score of cattle using AI and computer vision.',
+      technologies: ['AI', 'Computer Vision', 'Python', 'TensorFlow', 'OpenCV'],
       links: {
-        github: 'https://github.com/kill3rstabs',
-      },
-      category: 'web',
-    },
-    {
-      id: 'voice-sales-ai',
-      title: 'Voice Sales AI Agent',
-      description: 'A sophisticated AI agent designed for voice-based sales, capable of engaging customers in natural conversations to drive sales and improve customer experience.',
-      image: 'https://img.freepik.com/free-vector/robotic-hand-using-touchscreen-virtual-hud-display-background_1441-2853.jpg',
-      technologies: ['AI', 'Voice Recognition', 'Sales Automation', 'NLP'],
-      links: {},
-      category: 'ai',
-    },
-    {
-      id: 'bond-management',
-      title: 'Bond Management System for Florida',
-      description: 'A comprehensive bond management system for the state of Florida, featuring integration with Liberty.',
-      image: 'https://info.expeditors.com/hs-fs/hubfs/Photography%20Assets/Customs%20Bonds%20Overview%20graphic-01.jpg?width=320&name=Customs%20Bonds%20Overview%20graphic-01.jpg',
-      technologies: ['System Integration', 'Regulatory Compliance', 'Data Management'],
-      links: {
-        github: 'https://github.com/kill3rstabs',
-      },
-      category: 'web',
-    },
-    {
-      id: 'payroll-automation',
-      title: 'Payroll Processing Automation',
-      description: 'Automated payroll system for companies like CTR, streamlining operations with advanced data extraction.',
-      image: 'https://media.licdn.com/dms/image/v2/D4D12AQFdBp2lcFE3rg/article-cover_image-shrink_600_2000/B4DZc6hhi7HMAQ-/0/1749033556997?e=2147483647&v=beta&t=Z3u2bu_D_i-cQUgysMeXXpoVuyKurqXhkL819RSODng',
-      technologies: ['Automation', 'Data Extraction', 'Payroll Systems'],
-      links: {
-        github: 'https://github.com/kill3rstabs',
-      },
-      category: 'web',
-    },
-    {
-      id: 'highgate-reporting',
-      title: 'Highgate Hotels Reporting Automation',
-      description: 'Automation for Highgate Hotels to collect chargeback reports from various payment processors like AMEX, Fiserv, Elavon, and Clearent.',
-      image: 'https://static.dashthis.com/media/2277/blog_automation.svg',
-      technologies: ['Automation', 'Reporting', 'Payment Processors'],
-      links: {
-        github: 'https://github.com/kill3rstabs',
-      },
-      category: 'web',
-    },
-    {
-      id: 'optifit-ai',
-      title: 'Optifit.ai - AI Gym Trainer',
-      description: 'Co-supervised a final year project at National University of Emerging Sciences - FAST. Optifit.ai is an AI gym trainer with a rep counter, meal planning, and workout planning according to your goal, featuring pose detection.',
-      image: 'https://cdn.prod.website-files.com/5ecf8d4fd463368e57125560/5ecf8d4fd463363660125583_feature-2.png',
-      technologies: ['AI', 'Pose Detection', 'Meal Planning', 'Workout Planning'],
-      links: {
-        github: 'https://github.com/kill3rstabs/optifit.ai',
+        github: 'https://www.cargill.com/',
       },
       category: 'ai',
     },
     {
-      id: 'n8n-automation',
-      title: 'Workflow Automation with n8n',
-      description: 'Created various automations using n8n to streamline workflows and improve efficiency.',
-      image: 'https://miro.medium.com/v2/resize:fit:1155/0*G-5F38rBStjlMNwd.png',
-      technologies: ['n8n', 'Workflow Automation', 'API Integration'],
+      id: 'cargill2',
+      title: 'Cargill Mobile Offline Chatbot',
+      description: 'Created a on device mobile chatbot for Cargill project using llama.cpp that creates dynamic SQL queries based on user prompts to fetch data from local database without internet connection.',
+      technologies: ['On-device AI', 'Chatbot', 'Llama.cpp', 'SQL', 'Mobile Development'],
       links: {
-        github: 'https://github.com/kill3rstabs',
-      },
-      category: 'web',
-    },
-    {
-      id: 'lms-courts',
-      title: 'LMS for American Courts',
-      description: 'A Learning Management System for American courts, designed for traffic courses.',
-      image: 'https://all-digital.org/wp-content/uploads/2019/07/LMS-needed.jpg',
-      technologies: ['LMS', 'E-Learning', 'Judicial System'],
-      links: {
-        github: 'https://github.com/kill3rstabs',
-      },
-      category: 'web',
-    },
-    {
-      id: 'metosi-chatbot',
-      title: 'Metosi - Real-time Stock Analysis Chatbot',
-      description: 'A chatbot that parses FIX logs in real-time and provides analysis of the US stock market.',
-      image: 'https://unitedfintech.com/wp-content/uploads/2021/07/photo-1611974789855-9c2a0a7236a3-1500x1000.jpg',
-      technologies: ['Chatbot', 'Real-time Data Processing', 'Stock Market Analysis', 'FIX Protocol'],
-      links: {
-        github: 'https://github.com/kill3rstabs',
+        github: 'https://www.cargill.com/',
       },
       category: 'ai',
     },
     {
-      id: 'ecommerce-app',
-      title: 'Ecommerce Web Application',
-      description: 'A full-featured ecommerce platform with product listings, a shopping cart, and a secure checkout process.',
-      image: 'https://www.notiontechnologies.com/blog/wp-content/uploads/2023/03/how-to-build-an-ecommerce-website-from-scratch.webp',
-      technologies: ['React', 'Node.js', 'Express', 'MongoDB', 'Stripe'],
+      id: 'dynata',
+      title: 'Dynata',
+      description: 'Worked on the Dynata project as a frontend developer to create and maintain web applications for data collection and survey management.',
+      technologies: ['React', 'JavaScript', 'HTML', 'CSS', 'RESTful APIs'],
       links: {
-        github: 'https://github.com/kill3rstabs',
+        github: 'https://www.dynata.com/',
       },
       category: 'web',
-    }
+    },
+    {
+      id: 'cxapp',
+      title: 'Cxapp',
+      description: 'Worked as a frontend developer using Vue on the cxApp project. Refactored multiple components, integrated Jibestream maps, added localization and fixed numerous bugs as well as created multiple pages.',
+      technologies: [ 'Vue.js', 'JavaScript', 'HTML', 'CSS', 'Jibestream Maps'],
+      links: {
+        github: 'https://cxapp.com/',
+      },
+      category: 'web',
+    },
   ];
 
   const filteredProjects = filter === 'all' 
@@ -220,11 +164,6 @@ const Projects = () => {
               data-aos-delay={index * 100}
             >
               <div className="relative overflow-hidden" style={{ height: '200px' }}>
-                <img
-                  src={project.image}
-                  alt={project.title}
-                  className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-110"
-                />
                 <div className="absolute inset-0 bg-gradient-to-t from-primary to-transparent opacity-0 group-hover:opacity-70 transition-opacity duration-300"></div>
                 <div className="absolute bottom-4 right-4 flex space-x-3 opacity-0 group-hover:opacity-100 transition-opacity duration-300">
                   {project.links.github && (
@@ -277,7 +216,7 @@ const Projects = () => {
         {/* More projects link */}
         <div className="text-center mt-12">
           <a
-            href="https://github.com/kill3rstabs"
+            href="https://github.com/Umair1231"
             target="_blank"
             rel="noopener noreferrer"
             className="btn-primary inline-flex items-center"
