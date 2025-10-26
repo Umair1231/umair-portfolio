@@ -100,7 +100,7 @@ const Footer = () => {
 
         <div className="mt-12 pt-8 border-t border-gray-200 dark:border-primary-light text-center">
           <p className="text-gray-600 dark:text-text-secondary flex items-center justify-center">
-            © {currentYear} Nashit Budhwani. All rights reserved. Made with 
+            © {currentYear} Umair Amir. All rights reserved. Made with 
             <Heart className="h-4 w-4 mx-1 text-red-500" fill="currentColor" /> 
             using React & Tailwind CSS
           </p>
